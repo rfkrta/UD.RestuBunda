@@ -147,7 +147,7 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
+  padding: 8px;
   margin: 0;
   max-height: 100px;
 }
@@ -922,11 +922,17 @@ section {
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
-.details .content+.content {
+.details .content+.content  {
   margin-top: 100px;
 }
 
 .details .content h3 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #010483;
+}
+
+.details .content h4 {
   font-weight: 600;
   font-size: 26px;
   color: #010483;
